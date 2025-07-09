@@ -1,5 +1,7 @@
 import './globals.css';
 
+import Header from '@/components/header.jsx'
+
 export const metadata = {
   title: 'NextLevel Food',
   description: 'Delicious meals, shared by a food-loving community.',
@@ -29,7 +31,7 @@ export default function RootLayout({ children }) {
             ></path>
           </svg>
         </div>
-
+        <Header />
         {children}
       </body>
     </html>
