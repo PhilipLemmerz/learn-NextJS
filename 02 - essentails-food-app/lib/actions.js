@@ -30,6 +30,6 @@ export async function FormHandler(prevState, formData) {
 
     await saveMeal(meal);
     
-    revalidatePath('/meals', 'layout'); // app refresh: revalidatePath('/', 'layout');
+    revalidatePath('/meals', 'layout'); // app refresh: revalidatePath('/', 'layout')
     redirect('/meals')
 }
