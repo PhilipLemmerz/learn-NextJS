@@ -1,9 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/news/page": "app/news/page.js",
-  "/icon.jpg/route": "app/icon.jpg/route.js",
-  "/news/[news]/page": "app/news/[news]/page.js",
-  "/archive/@archive/[year]/page": "app/archive/@archive/[year]/page.js",
-  "/archive/@archive/page": "app/archive/@archive/page.js"
+  "/(Website)/news/page": "app/(Website)/news/page.js",
+  "/(LandingPages)/page": "app/(LandingPages)/page.js",
+  "/(Website)/archive/@archive/[[...filter]]/page": "app/(Website)/archive/@archive/[[...filter]]/page.js",
+  "/(Website)/news/[news]/page": "app/(Website)/news/[news]/page.js"
 }

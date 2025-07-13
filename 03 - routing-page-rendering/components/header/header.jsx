@@ -10,6 +10,7 @@ export default function Header() {
         <ul>
           <li>
             <Link href="/news">News</Link>
+            <Link href="/archive">archive</Link>
           </li>
         </ul>
       </nav>
